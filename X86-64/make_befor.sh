@@ -16,5 +16,3 @@ cd ./package/
 git clone https://github.com/jerrykuku/luci-theme-argon.git
 cd ../
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
-# 醋猫主题插件
-git clone https://github.com/sirpdboy/luci-theme-kucat.git package/luci-theme-kucat
